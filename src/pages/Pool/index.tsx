@@ -165,7 +165,7 @@ function WrongNetworkCard() {
           <AutoColumn gap="lg" style={{ width: '100%' }}>
             <TitleRow padding="0">
               <ThemedText.LargeHeader>
-                <Trans>Pools</Trans>
+                <Trans> Hoarding Pools</Trans>
               </ThemedText.LargeHeader>
             </TitleRow>
 
@@ -258,7 +258,7 @@ export default function Pool() {
           <AutoColumn gap="lg" style={{ width: '100%' }}>
             <TitleRow padding="0">
               <ThemedText.LargeHeader>
-                <Trans>Pools</Trans>
+                <Trans>Hoarding Pools</Trans>
               </ThemedText.LargeHeader>
               <ButtonRow>
                 {networkSupportsV2 && (
@@ -276,7 +276,7 @@ export default function Pool() {
                   />
                 )}
                 <ResponsiveButtonPrimary data-cy="join-pool-button" id="join-pool-button" as={Link} to="/add/ETH">
-                  + <Trans>New position</Trans>
+                  + <Trans>New Hoarding position</Trans>
                 </ResponsiveButtonPrimary>
               </ButtonRow>
             </TitleRow>
@@ -295,7 +295,7 @@ export default function Pool() {
                   <ThemedText.BodyPrimary color={theme.neutral3} textAlign="center">
                     <InboxIcon strokeWidth={1} style={{ marginTop: '2em' }} />
                     <div>
-                      <Trans>Your active V3 liquidity positions will appear here.</Trans>
+                      <Trans>Your active V3 Hoarding liquidity positions will appear here.</Trans>
                     </div>
                   </ThemedText.BodyPrimary>
                   {!showConnectAWallet && closedPositions.length > 0 && (
@@ -303,7 +303,7 @@ export default function Pool() {
                       style={{ marginTop: '.5rem' }}
                       onClick={() => setUserHideClosedPositions(!userHideClosedPositions)}
                     >
-                      <Trans>Show closed positions</Trans>
+                      <Trans>Show closed hoarding positions</Trans>
                     </ButtonText>
                   )}
                   {showConnectAWallet && (

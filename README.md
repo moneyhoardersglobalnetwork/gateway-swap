@@ -78,3 +78,21 @@ The Uniswap Interface supports swapping, adding liquidity, removing liquidity an
 
 The Uniswap V1 interface for mainnet and testnets is accessible via IPFS gateways
 linked from the [v1.0.0 release](https://github.com/Uniswap/uniswap-interface/releases/tag/v1.0.0).
+
+
+Github pushing
+Git Hub Staging, Commiting, Pushing //Commands for updating repo on github(Build this out)
+
+//Check remote origin
+
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+git remote -v
+
+git add . //adds modified files to commit# mhgn-hoarding-gateway
+
+git commit -m "update from local" // Commit your changes to be pushed to repo
+
+Use the --no-verify option to skip git commit hooks, e.g. git commit -m "commit message" --no-verify . When the --no-verify option is used, the pre-commit and commit-msg hooks are bypassed. Copied! You can also use the -n option, which is short for --no-verify .
+
+git push //push to repo //Push updates to repo (main)
